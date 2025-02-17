@@ -1,0 +1,74 @@
+*{
+    box-sizing : content-box;
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(233, 228, 221);
+    min-height: 100vh;
+   
+}
+
+header{
+    font-size: 2rem;
+    margin: 2%;
+}
+header,
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5 rem; 
+}
+
+form{
+    margin-bottom: 3%;
+}
+form button,
+form input{
+    font-size: 1.4rem;
+    border: none;
+    padding: 0.5rem;
+    background: white;
+    color: rgb(66, 66, 221);
+}
+
+form button{
+    cursor: pointer;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 30rem; */
+}
+
+.todo-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    margin: 5%;
+    padding: 0.5rem;
+    border: .1rem solid white;
+    width: 100%;
+}
+
+.todo-div li{
+    list-style: none;
+}
+
+.delete-btn{
+    cursor: pointer;
+    color: red;
+}
+
+.delete-btn :hover{
+    color: black;
+}
+.todo-item,
+.delete-btn{
+    border: none;
+    
+}
